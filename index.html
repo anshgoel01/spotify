@@ -4,22 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
     <title>Document</title>
 </head>
 <body>
-<div class="container">
+<div class="container flex">
 
-    <div class="left">
-        <div class="upper"></div>
+    <div class="left ">
+        <div class="upper bg-grey rounded m-1 ">
+            <ul style="padding-block: 14px;">
+                <li><img class="invert" src="svg/home.svg" alt="Home">Home</li>
+                <li><img class="invert" src="svg/search.svg" alt="Search">Search</li>
+            </ul>
+        </div>
 
-        <div class="lower"></div>
+        <div class="lower bg-grey rounded m-1 ">
+            <div class="heading">
+                <img class="invert" src="svg/library.svg" alt="Your library">
+                <h2 style="position: relative;left: 49px; top: -11px;">
+                    Your library
+                </h2>
+            </div>
+        </div>
     </div>
     
-    <div class="right">
-
+    <div class="right bg-grey rounded m-1" style="
+    margin-block-start: 1px;">
+        <div class="header flex">
+            <div class="nav ">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none"><path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none"><path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="buttons">
+                <button >Explore Premium</button>
+                <button>Install App</button>
+            </div>
+        </div>
+        <div class="playlist">
+            <h1>Made For Anshuman Goel</h1>
+            <div class="cardContainer">
+                <div class="card">
+                    <img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb361dbe0908fbdb46ea248dfa/1/en/default" alt="">
+                    <h4 style="margin: 0;">Daily Mix 1</h4>
+                    <p class="text">Harnoor, JERRY, Nirvair Pannu and more</p>
+                </div>
+                <div class="card">
+                    <img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb361dbe0908fbdb46ea248dfa/1/en/default" alt="">
+                    <h4 style="margin: 0;">Daily Mix 1</h4>
+                    <p class="text">Harnoor, JERRY, Nirvair Pannu and more</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-    
 </div>
     <script src="script.js"></script>
 </body>

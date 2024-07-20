@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: #000;
+    color: white;
+}
+
+.left{
+    margin-block: -15px;
+    width: 34vw;
+}
+
+.right{
+    width: 68vw;
+}
+
+.upper{
+    /* padding-block: 14px; */
+}
+
+.upper ul li{
+    font-family: "Gabarito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 25px;
+    height: 38px;
+    gap: 19px;
+    margin-left: 18px;
+    margin-block: 2px;
+    
+}
+
+.lower {
+    min-height: 65vh;
+    margin-block: -6px;
+}
+
+.heading{
+    font-family: "Gabarito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 25px;
+    gap: 19px;
+    margin-left: 18px;
+    position: relative;
+    
+}
+
+.heading img{
+    position: relative;
+    top: -29px;
+    right: -50px;
+}
+
+.header{
+    justify-content: space-between;
+    background-color: #121212;
+}
+
+.header> *{
+    padding: 22px;
+}
+
+.playlist{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 700; */
+    font-style: normal;
+    padding: 15px;
+    padding-block: 44px
+}
+
+.cardContainer{
+    margin-block: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 170px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.text{
+    margin: 0;
+    font-size: 13px;
+}

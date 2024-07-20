@@ -1,0 +1,39 @@
+.p-1{
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 6px;
+}
+
+.m-1{
+    margin: 5px;
+    margin-block-end: 8px;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+/* .border{
+    
+    border-color: 2px solid white;
+    margin: 3px;
+} */
+

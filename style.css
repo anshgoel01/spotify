@@ -89,6 +89,7 @@ body{
     padding: 8px;
     border-radius: 5px;
     background-color: #252525;
+    position: relative;
 }
 
 
@@ -101,4 +102,18 @@ body{
 .text{
     margin: 0;
     font-size: 13px;
+}
+
+.play{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background-color: #1ed760;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: 126px;
+    left: 126px;
 }

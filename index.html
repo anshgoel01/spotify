@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-    <title>Document</title>
+    <title>Spotify – Web Player</title>
 </head>
 <body>
 <div class="container flex">
@@ -32,19 +32,24 @@
     margin-block-start: 1px;">
         <div class="header flex">
             <div class="nav ">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none"><path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none"><path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
+                <button class="backbtn"> <img src="svg/left.svg" alt="">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"color="" fill="none"><path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> -->
+                </button>
+                <button class="forwbtn"><img src="svg/right.svg" alt="">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="" fill="none"><path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> -->
+                </button>
             </div>
             <div class="buttons">
-                <button >Explore Premium</button>
-                <button>Install App</button>
+                <button class="prebtn">Explore Premium</button>
+                <button class="installbtn"><img class="invert" src="svg/install.svg" alt=""> Install App</button>
+                <button class="notibtn"><img src="svg/noti.svg" alt=""></button>
             </div>
         </div>
-        <div class="playlist">
+        <div class="playlist ">
             <h1>Made For Anshuman Goel</h1>
-            <div class="cardContainer">
+            <div class="cardContainer flex">
 
                 <div class="card">
                     <div class="play">
@@ -56,12 +61,10 @@
                         <p class="text">Harnoor, JERRY, Nirvair Pannu and more</p>
                 </div>
 
-                <div class="card">
-                    <img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb361dbe0908fbdb46ea248dfa/1/en/default" alt="">
-                    <h4 style="margin: 0;">Daily Mix 1</h4>
-                    <p class="text">Harnoor, JERRY, Nirvair Pannu and more</p>
-                </div>
-            </div>
+                
+            </div>         
+                
+    </div>
         </div>
     </div>
 </div>

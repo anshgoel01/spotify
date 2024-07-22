@@ -39,7 +39,7 @@ body{
 }
 
 .lower {
-    min-height: 65vh;
+    min-height: 66.5vh;
     margin-block: -6px;
 }
 
@@ -236,5 +236,25 @@ body{
     position: relative;
     top: 1px;
 }
+
+.playbar{
+    background-color: #000;
+    color: white;
+    position: absolute;
+    bottom: -40px;
+    width: 98%;
+    padding: 5px;
+    /* align-items: center;
+    justify-content: center;
+    gap: 12px; */
+}
+
+.songbtn{
+    filter: invert();
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
 
 

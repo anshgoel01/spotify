@@ -133,10 +133,10 @@ body{
     width: 12px;
 }
 
-/* Track (the area behind the scrollbar) */
+/* Track (the area behind the scrollbar)
 ::-webkit-scrollbar-track {
-    /* background: #333; */
-}
+    background: #333; 
+}*/
 
 /* Thumb (the draggable part of the scrollbar) */
 ::-webkit-scrollbar-thumb {
@@ -250,10 +250,23 @@ body{
 }
 
 .songbtn{
-    filter: invert();
+    /* filter: brightness(); */
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+
+.songbtn :nth-child(1){
+    filter: invert();
+}
+
+.songbtn :nth-child(2){
+    height: 40px;
+    width: 40px;
+}
+
+.songbtn :nth-child(3){
+    filter: invert();
 }
 
 

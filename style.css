@@ -388,6 +388,14 @@ body{
     left: 1049px;
 }
 
+.songList ul{
+    padding: 29px 40px;
+}
+
+.songList ul li{
+    list-style-type: decimal;
+}
+
 
 
 

@@ -18,10 +18,21 @@ async function getSongs() {
 
 async function main() {
   let songs = await getSongs();
-  console.log(songs);
+  console.log(songs)
+
+  let songUL = document.querySelector(".songList").getElementsByTagName("ul")[0]
+  for (const song of songs ) {
+    songUL.innerHTML = songUL.innerHTML + '<li> ${song} </li>';
+  }
 
   var audio = new Audio(songs[0]);
   audio.play();
+
+  audio.addEventListener("loadeddata" , () => {
+    let duration = audio.duration;
+    console.log(audio.duration , audio.currentSrc, audio.currentTime);
+    
+  });
 }
 
 main()
